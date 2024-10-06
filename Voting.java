@@ -906,69 +906,7 @@ class ADMINISTRATOR {
         }
 
     }
-    // if(i==1)
-    // {
-
-    // int ele=1;
-    // System.out.print(" Election Name ---> " +ptr[0] );
-    // while(ele!=0)
-    // {
-    // String x;
-    // System.out.print(" Entre Voter-Id ---> " );
-    // x=sc.nextLine();
-    // voter vv1 = v.head;
-    // while(vv1.next!=null)
-    // {
-    // if(x.compareTo(vv1.vvoter_id)==0)
-    // {
-    // String temp;
-    // CandCandidate c11 = c.head;
-    // int totalc=0;
-    // while(c11.next!=null)
-    // {
-    // System.out.println(" name -- > " +c11.name + " Party-name :" + c11.parthyname
-    // );
-    // totalc++;
-    // }
-
-    // System.out.print(" Entre Your choice Name ---> " );
-    // temp=sc.nextLine();
-
-    // CandCandidate c111 = c.head;
-    // int j=0;
-    // while(c111.next!=null)
-    // {
-    // if(temp.compareTo(c111.name)==0)
-    // {
-    // c111.vote+=1;
-    // }
-    // j++;
-    // }
-
-    // if(j==totalc)
-    // {
-    // System.out.println(" Party Not found ! " );
-    // continue;
-    // }
-
-    // }
-    // }
-    // System.out.print(" Entre 0 For End Election Else Enter 1 ---> " );
-    // ele=sc.nextInt();
-    // }
-
-    // else if(i==2)
-    // {
-    // }
-    // else if(i==3)
-    // {
-
-    // }
-    // else {
-
-    // System.out.print(" Today Did not sechdual any election " );
-
-    // }
+    
 
     void Result(election e, CandCandidate c, CandCandidate c1, CandCandidate c2, voter v, ADMINISTRATOR A) {
         Scanner sc = new Scanner(System.in);
