@@ -1,5 +1,5 @@
 
-# Election Management System
+# Voting System
 
 This project is a Java-based application designed to manage elections, candidates, and voters. It provides functionalities for:
 
